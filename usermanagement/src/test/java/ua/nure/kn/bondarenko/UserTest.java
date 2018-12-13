@@ -1,4 +1,4 @@
-package test.java.ua.kn.bondarenko;
+package ua.nure.kn.bondarenko;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -23,7 +23,7 @@ public class UserTest extends TestCase {
 	public void testGetFullName() {
 		user.setFirstName("Anna");
 		user.setLastName("Bondarenko");
-		assertEquals("Anna,Bondarenko", user.getFullName());
+		assertEquals("Bondarenko,Anna", user.getFullName());
 	}
 
 	public void testLastNameIsNull() {
